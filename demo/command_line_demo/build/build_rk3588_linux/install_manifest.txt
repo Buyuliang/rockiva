@@ -1,0 +1,12 @@
+/home/mixtile/rockiva/demo/command_line_demo/install/rockiva_rk3588_linux/lib/librockiva.so
+/home/mixtile/rockiva/demo/command_line_demo/install/rockiva_rk3588_linux/lib/librknnrt.so
+/home/mixtile/rockiva/demo/command_line_demo/install/rockiva_rk3588_linux/rockiva_demo/rockiva_demo
+/home/mixtile/rockiva/demo/command_line_demo/install/rockiva_rk3588_linux/rockiva_demo/rockiva_one_demo
+/home/mixtile/rockiva/demo/command_line_demo/install/rockiva_rk3588_linux/rockiva_demo/rockiva_face_import_demo
+/home/mixtile/rockiva/demo/command_line_demo/install/rockiva_rk3588_linux/rockiva_demo/rockiva_face_recog_demo
+/home/mixtile/rockiva/demo/command_line_demo/install/rockiva_rk3588_linux/rockiva_demo/rockiva_face_search_demo
+/home/mixtile/rockiva/demo/command_line_demo/install/rockiva_rk3588_linux/rockiva_demo/rockiva_video_demo
+/home/mixtile/rockiva/demo/command_line_demo/install/rockiva_rk3588_linux/lib/librockchip_mpp.so
+/home/mixtile/rockiva/demo/command_line_demo/install/rockiva_rk3588_linux/lib/libmk_api.so
+/home/mixtile/rockiva/demo/command_line_demo/install/rockiva_rk3588_linux/rockiva_demo/face
+/home/mixtile/rockiva/demo/command_line_demo/install/rockiva_rk3588_linux/rockiva_demo/face_show

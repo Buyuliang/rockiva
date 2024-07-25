@@ -1,0 +1,110 @@
+{
+    "workMode": 0,
+    "logLevel": 0,
+    "logPath": "",
+    "modelPath": "/data/rockiva_data",
+    "license": "",
+    "coreMask": 0,
+    "channelId": 0,
+    "imageInfo": {
+        "width": 1920,
+        "height": 1080,
+        "format": 0,
+        "transformMode": 0
+    },
+    "detModel": 1,
+    "roiAreas": {
+        "areaNum": 0,
+        "areas": [
+            {
+                "pointNum": 4,
+                "points": [
+                    {
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                       "x": 0,
+                       "y": 0
+                    }
+                ]
+            }
+        ]
+    },
+
+    "det": {
+        "enable": 0
+    },
+
+    "face": {
+        "enable": 1,
+        "mode": 0,
+        "faceTaskType": {
+            "faceCaptureEnable": 1,
+            "faceRecognizeEnable": 0,
+            "faceAttributeEnable": 0,
+            "relatedPersonEnable": 0
+        },
+        "faceCaptureRule": {
+            "sensitivity": 0,
+            "detectAreaEn": 0,
+            "detectArea": {
+                "pointNum": 4,
+                "points": [
+                    {
+                        "x": 1000,
+                        "y": 1000
+                    },
+                    {
+                        "x": 9000,
+                        "y": 1000
+                    },
+                    {
+                        "x": 9000,
+                        "y": 9000
+                    },
+                    {
+                        "x": 1000,
+                        "y": 9000
+                    }
+                ]
+            },
+            "qualityFilterMode": 0,
+            "qualityConfig": {
+                "minScore": 50,
+                "minSize": 30
+            },
+            "faceCapacity": {
+                "maxCaptureNum": 10
+            },
+            "captureImageConfig": {
+                "mode": 1,
+                "resizeMode": 1,
+                "alignWidth": 16,
+                "expand": {
+                    "up": 1.0,
+                    "down": 1.0,
+                    "left": 1.0,
+                    "right": 1.0
+                },
+                "imageInfo": {
+                    "width": 240,
+                    "height": 320,
+                    "format": 1
+                }
+            },
+            "optType": 0,
+            "optBestOverTime": 10000,
+            "faceQualityThrehold": 50,
+            "captureWithMask": 1
+        }
+    }
+}

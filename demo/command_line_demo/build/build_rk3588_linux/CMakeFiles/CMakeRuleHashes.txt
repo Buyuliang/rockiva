@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+9b5f1920cfe78f8036671f4093c11ff4 rockiva_demo/face_show/CMakeFiles/face_show_autogen
+960ac10897edc2855f779b53a3646cd4 rockiva_demo/face_test/CMakeFiles/face_autogen

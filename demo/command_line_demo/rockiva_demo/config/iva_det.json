@@ -1,0 +1,53 @@
+{
+    "workMode": 0,
+    "logLevel": 0,
+    "logPath": "",
+    "modelPath": "/data/rockiva_data",
+    "license": "",
+    "coreMask": 0,
+    "channelId": 0,
+    "imageInfo": {
+        "width": 1920,
+        "height": 1080,
+        "format": 0,
+        "transformMode": 0
+    },
+    "detModel": 1,
+    "roiAreas": {
+        "areaNum": 0,
+        "areas": [
+            {
+                "pointNum": 4,
+                "points": [
+                    {
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                       "x": 0,
+                       "y": 0
+                    }
+                ]
+            }
+        ]
+    },
+
+    "det": {
+        "detObjectType": 0,
+        "aiConfig": {
+            "filterPersonMode": 1,
+            "detectResultMode": 1
+        },
+        "scores": [
+            30, 31, 32, 33, 34, 35, 36, 37, 38, 39
+        ]
+    }
+}

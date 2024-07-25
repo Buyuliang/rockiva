@@ -1,0 +1,291 @@
+{
+    "workMode": 0,
+    "logLevel": 0,
+    "logPath": "",
+    "modelPath": "/data/rockiva_data",
+    "license": "",
+    "coreMask": 0,
+    "channelId": 0,
+    "imageInfo": {
+        "width": 1920,
+        "height": 1080,
+        "format": 0,
+        "transformMode": 0
+    },
+    "detModel": 1,
+    "roiAreas": {
+        "areaNum": 0,
+        "areas": [
+            {
+                "pointNum": 4,
+                "points": [
+                    {
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                       "x": 0,
+                       "y": 0
+                    }
+                ]
+            }
+        ]
+    },
+
+    "ba": {
+        "enable": 1,
+        "aiConfig": {
+            "filterPersonMode": 1,
+            "detectResultMode": 1
+        },
+        "baRules": {
+            "tripWireRule": [
+                {
+                    "ruleEnable": 0,
+                    "ruleID": 1,
+                    "line": {
+                        "head": {
+                            "x": 4448,
+                            "y": 5481
+                        },
+                        "tail": {
+                            "x": 4021,
+                            "y": 9999
+                        }
+                    },
+                    "directLine" : {
+                        "head": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "tail": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    },
+                    "event": 1,
+                    "minObjSize": [
+                        {
+                            "width": 0,
+                            "height": 0
+                        },
+                        {
+                            "width": 0,
+                            "height": 0
+                        },
+                        {
+                            "width": 0,
+                            "height": 0
+                        }
+                    ],
+                    "maxObjSize": [
+                        {
+                            "width": 0,
+                            "height": 0
+                        },
+                        {
+                            "width": 0,
+                            "height": 0
+                        },
+                        {
+                            "width": 0,
+                            "height": 0
+                        }
+                    ],
+                    "objType": 7,
+                    "rulePriority": 0,
+                    "sense": 100,
+                    "trigerMode": 0
+                }
+            ],
+            "areaInRule": [
+                {
+                    "ruleEnable": 0,
+                    "ruleID": 0,
+                    "area": {
+                        "pointNum": 4,
+                        "points": [
+                            {
+                                "x": 0,
+                                "y": 0
+                            },
+                            {
+                                "x": 0,
+                                "y": 0
+                            },
+                            {
+                                "x": 0,
+                                "y": 0
+                            },
+                            {
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    "event": 0,
+                    "minObjSize": [
+                        {
+                            "width": 0,
+                            "height": 0
+                        },
+                        {
+                            "width": 0,
+                            "height": 0
+                        },
+                        {
+                            "width": 0,
+                            "height": 0
+                        }
+                    ],
+                    "maxObjSize": [
+                        {
+                            "width": 0,
+                            "height": 0
+                        },
+                        {
+                            "width": 0,
+                            "height": 0
+                        },
+                        {
+                            "width": 0,
+                            "height": 0
+                        }
+                    ],
+                    "objType": 0,
+                    "alertTime": 0,
+                    "sense": 0,
+                    "checkEnter": 0
+                }
+            ],
+            "areaOutRule": [
+                {
+                    "ruleEnable": 0,
+                    "ruleID": 0,
+                    "area": {
+                        "pointNum": 4,
+                        "points": [
+                            {
+                                "x": 0,
+                                "y": 0
+                            },
+                            {
+                                "x": 0,
+                                "y": 0
+                            },
+                            {
+                                "x": 0,
+                                "y": 0
+                            },
+                            {
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    "event": 0,
+                    "minObjSize": [
+                        {
+                            "width": 0,
+                            "height": 0
+                        },
+                        {
+                            "width": 0,
+                            "height": 0
+                        },
+                        {
+                            "width": 0,
+                            "height": 0
+                        }
+                    ],
+                    "maxObjSize": [
+                        {
+                            "width": 0,
+                            "height": 0
+                        },
+                        {
+                            "width": 0,
+                            "height": 0
+                        },
+                        {
+                            "width": 0,
+                            "height": 0
+                        }
+                    ],
+                    "objType": 0,
+                    "alertTime": 0,
+                    "sense": 0,
+                    "checkEnter": 0
+                }
+            ],
+            "areaInBreakRule": [
+                {
+                    "ruleEnable": 1,
+                    "ruleID": 1,
+                    "area": {
+                        "pointNum": 4,
+                        "points": [
+                            {
+                                "x": 3208,
+                                "y": 5352
+                            },
+                            {
+                                "x": 5583,
+                                "y": 5667
+                            },
+                            {
+                                "x": 7073,
+                                "y": 9999
+                            },
+                            {
+                                "x": 166,
+                                "y": 9999
+                            }
+                        ]
+                    },
+                    "event": 5,
+                    "minObjSize": [
+                        {
+                            "width": 0,
+                            "height": 0
+                        },
+                        {
+                            "width": 0,
+                            "height": 0
+                        },
+                        {
+                            "width": 0,
+                            "height": 0
+                        }
+                    ],
+                    "maxObjSize": [
+                        {
+                            "width": 0,
+                            "height": 0
+                        },
+                        {
+                            "width": 0,
+                            "height": 0
+                        },
+                        {
+                            "width": 0,
+                            "height": 0
+                        }
+                    ],
+                    "objType": 7,
+                    "alertTime": 1000,
+                    "sense": 100,
+                    "checkEnter": 0
+                }
+            ]
+        }
+    }
+}

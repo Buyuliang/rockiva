@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "new": "cpp",
+        "iva_app_ctx.h": "c"
+    }
+}

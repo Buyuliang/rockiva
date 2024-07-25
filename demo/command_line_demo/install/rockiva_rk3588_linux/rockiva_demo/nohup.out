@@ -1,0 +1,482 @@
+open camera success
+
+------------------------------------
+
+Device Information:
+
+driver name: uvcvideo
+card name: C922 Pro Stream Webcam
+
+------------------------------------
+
+set format success
+
+当前视频帧大小<1280 * 720>, 颜色空间:8
+
+request buffer success
+
+memory map success
+
+open stream success
+
+create image buffer 0 width=1280 height=720 fmt=1 size=2764800 fd=113 virt_addr=0xffff663ea000
+create image buffer 1 width=1280 height=720 fmt=1 size=2764800 fd=114 virt_addr=0xffff66147000
+create image buffer 2 width=1280 height=720 fmt=1 size=2764800 fd=116 virt_addr=0xffff65ea4000
+rga_api version 1.9.1_[5]
+FaceAnalyseResultCallback channelId=0 frameId=174 type=5 num=1
+
+capture face id=3 box=(5382 3027 7156 7055) mask=0
+save capture to ./out/captures/2023-10-26 15:09:37_0.png
+first_time: 2023-10-26 15:09:37, last_time: 2023-10-26 15:09:37, count: 1
+SaveImage path: ./out/captures/2023-10-26 15:09:37_0.png width=240 height=240 channel=3 data=0xffff6752a000
+FaceAnalyseResultCallback channelId=0 frameId=5119 type=5 num=1
+
+capture face id=24 box=(9265 5972 9984 7472) mask=0
+
+serch result 0 face_info=2023-10-26 15:09:37_1 score=0.097361
+
+save capture to ./out/captures/2023-10-26 15:11:13_0.png
+first_time: 2023-10-26 15:11:13, last_time: 2023-10-26 15:11:13, count: 1
+first_time: 2023-10-26 15:09:37, last_time: 2023-10-26 15:09:37, count: 1
+SaveImage path: ./out/captures/2023-10-26 15:11:13_0.png width=240 height=240 channel=3 data=0xffff6752a000
+FaceAnalyseResultCallback channelId=0 frameId=6986 type=5 num=1
+
+capture face id=38 box=(5085 3472 6585 7416) mask=0
+
+serch result 0 face_info=2023-10-26 15:09:37_1 score=0.802452
+
+xxxxxxxx ----------- count : 2
+
+xxxxxxxx ----------- first_time : 2023-10-26 15:09:37
+
+xxxxxxxx ----------- deleteNode : 2023-10-26 15:09:37
+
+
+
+ tom test LINE:110
+
+20231026 15:11:51.193 62087:62097 E rockx(remove+489): this->face_array_num=1
+
+serch result 1 face_info=2023-10-26 15:11:13_1 score=0.115981
+
+save capture to ./out/captures/2023-10-26 15:11:51_0.png
+first_time: 2023-10-26 15:09:37, last_time: 2023-10-26 15:11:51, count: 2
+first_time: 2023-10-26 15:11:13, last_time: 2023-10-26 15:11:13, count: 1
+SaveImage path: ./out/captures/2023-10-26 15:11:51_0.png width=240 height=240 channel=3 data=0xffff6752a000
+FaceAnalyseResultCallback channelId=0 frameId=9228 type=5 num=1
+
+capture face id=63 box=(8726 8041 9578 9791) mask=0
+
+serch result 0 face_info=2023-10-26 15:11:13_1 score=0.978407
+
+xxxxxxxx ----------- count : 2
+
+xxxxxxxx ----------- first_time : 2023-10-26 15:11:13
+
+xxxxxxxx ----------- deleteNode : 2023-10-26 15:11:13
+
+
+
+ tom test LINE:110
+
+20231026 15:12:36.713 62087:62097 E rockx(remove+489): this->face_array_num=1
+
+serch result 1 face_info=2023-10-26 15:09:37_2 score=0.142848
+
+save capture to ./out/captures/2023-10-26 15:12:36_0.png
+first_time: 2023-10-26 15:11:13, last_time: 2023-10-26 15:12:36, count: 2
+first_time: 2023-10-26 15:09:37, last_time: 2023-10-26 15:11:51, count: 2
+SaveImage path: ./out/captures/2023-10-26 15:12:36_0.png width=240 height=240 channel=3 data=0xffff6752a000
+FaceAnalyseResultCallback channelId=0 frameId=17322 type=5 num=1
+
+capture face id=72 box=(8859 8263 9796 9958) mask=0
+
+serch result 0 face_info=2023-10-26 15:11:13_2 score=0.978037
+
+xxxxxxxx ----------- count : 3
+
+xxxxxxxx ----------- first_time : 2023-10-26 15:11:13
+
+xxxxxxxx ----------- deleteNode : 2023-10-26 15:11:13
+
+
+
+ tom test LINE:110
+
+20231026 15:15:08.828 62087:62097 E rockx(remove+489): this->face_array_num=1
+
+serch result 1 face_info=2023-10-26 15:09:37_2 score=0.149879
+
+save capture to ./out/captures/2023-10-26 15:15:08_0.png
+first_time: 2023-10-26 15:11:13, last_time: 2023-10-26 15:15:08, count: 3
+first_time: 2023-10-26 15:09:37, last_time: 2023-10-26 15:11:51, count: 2
+SaveImage path: ./out/captures/2023-10-26 15:15:08_0.png width=240 height=240 channel=3 data=0xffff6752a000
+FaceAnalyseResultCallback channelId=0 frameId=37852 type=5 num=1
+
+capture face id=87 box=(4296 3416 6101 7472) mask=0
+
+serch result 0 face_info=2023-10-26 15:09:37_2 score=0.711138
+
+xxxxxxxx ----------- count : 3
+
+xxxxxxxx ----------- first_time : 2023-10-26 15:09:37
+
+xxxxxxxx ----------- deleteNode : 2023-10-26 15:09:37
+
+
+
+ tom test LINE:110
+
+20231026 15:21:03.308 62087:62097 E rockx(remove+489): this->face_array_num=1
+
+serch result 1 face_info=2023-10-26 15:11:13_3 score=0.111490
+
+save capture to ./out/captures/2023-10-26 15:21:03_0.png
+first_time: 2023-10-26 15:09:37, last_time: 2023-10-26 15:21:03, count: 3
+first_time: 2023-10-26 15:11:13, last_time: 2023-10-26 15:15:08, count: 3
+SaveImage path: ./out/captures/2023-10-26 15:21:03_0.png width=240 height=240 channel=3 data=0xffff6752a000
+FaceAnalyseResultCallback channelId=0 frameId=88266 type=5 num=1
+
+capture face id=142 box=(8437 7083 9039 8361) mask=0
+
+serch result 0 face_info=2023-10-26 15:11:13_3 score=0.245105
+
+
+serch result 1 face_info=2023-10-26 15:09:37_3 score=0.215871
+
+save capture to ./out/captures/2023-10-26 15:35:50_0.png
+first_time: 2023-10-26 15:11:13, last_time: 2023-10-26 15:15:08, count: 3
+first_time: 2023-10-26 15:09:37, last_time: 2023-10-26 15:21:03, count: 3
+first_time: 2023-10-26 15:35:50, last_time: 2023-10-26 15:35:50, count: 1
+SaveImage path: ./out/captures/2023-10-26 15:35:50_0.png width=240 height=240 channel=3 data=0xffff6752a000
+FaceAnalyseResultCallback channelId=0 frameId=88909 type=5 num=1
+
+capture face id=145 box=(4953 3722 7023 8388) mask=0
+
+serch result 0 face_info=2023-10-26 15:09:37_3 score=0.939184
+
+xxxxxxxx ----------- count : 4
+
+xxxxxxxx ----------- first_time : 2023-10-26 15:09:37
+
+xxxxxxxx ----------- deleteNode : 2023-10-26 15:09:37
+
+
+
+ tom test LINE:110
+
+20231026 15:36:02.942 62087:62097 E rockx(remove+489): this->face_array_num=2
+
+serch result 1 face_info=2023-10-26 15:11:13_3 score=0.096325
+
+
+serch result 2 face_info=2023-10-26 15:35:50_1 score=0.076360
+
+save capture to ./out/captures/2023-10-26 15:36:02_0.png
+first_time: 2023-10-26 15:09:37, last_time: 2023-10-26 15:36:02, count: 4
+first_time: 2023-10-26 15:11:13, last_time: 2023-10-26 15:15:08, count: 3
+first_time: 2023-10-26 15:35:50, last_time: 2023-10-26 15:35:50, count: 1
+SaveImage path: ./out/captures/2023-10-26 15:36:02_0.png width=240 height=240 channel=3 data=0xffff6752a000
+FaceAnalyseResultCallback channelId=0 frameId=94727 type=5 num=1
+
+capture face id=178 box=(4914 1166 6343 5361) mask=0
+
+serch result 0 face_info=2023-10-26 15:09:37_4 score=0.736835
+
+xxxxxxxx ----------- count : 5
+
+xxxxxxxx ----------- first_time : 2023-10-26 15:09:37
+
+xxxxxxxx ----------- deleteNode : 2023-10-26 15:09:37
+
+
+
+ tom test LINE:110
+
+20231026 15:37:52.335 62087:62097 E rockx(remove+489): this->face_array_num=2
+
+serch result 1 face_info=2023-10-26 15:35:50_1 score=0.108013
+
+
+serch result 2 face_info=2023-10-26 15:11:13_3 score=0.069178
+
+save capture to ./out/captures/2023-10-26 15:37:52_0.png
+first_time: 2023-10-26 15:09:37, last_time: 2023-10-26 15:37:52, count: 5
+first_time: 2023-10-26 15:11:13, last_time: 2023-10-26 15:15:08, count: 3
+first_time: 2023-10-26 15:35:50, last_time: 2023-10-26 15:35:50, count: 1
+SaveImage path: ./out/captures/2023-10-26 15:37:52_0.png width=240 height=240 channel=3 data=0xffff6752a000
+FaceAnalyseResultCallback channelId=0 frameId=110389 type=5 num=1
+
+capture face id=220 box=(7734 6055 8265 7166) mask=0
+
+serch result 0 face_info=2023-10-26 15:11:13_3 score=0.350021
+
+
+serch result 1 face_info=2023-10-26 15:35:50_1 score=0.218943
+
+
+serch result 2 face_info=2023-10-26 15:09:37_5 score=0.053741
+
+save capture to ./out/captures/2023-10-26 15:42:57_0.png
+first_time: 2023-10-26 15:09:37, last_time: 2023-10-26 15:37:52, count: 5
+first_time: 2023-10-26 15:11:13, last_time: 2023-10-26 15:15:08, count: 3
+first_time: 2023-10-26 15:42:57, last_time: 2023-10-26 15:42:57, count: 1
+first_time: 2023-10-26 15:35:50, last_time: 2023-10-26 15:35:50, count: 1
+SaveImage path: ./out/captures/2023-10-26 15:42:57_0.png width=240 height=240 channel=3 data=0xffff6752a000
+FaceAnalyseResultCallback channelId=0 frameId=113151 type=5 num=1
+
+capture face id=229 box=(5070 3027 6875 6986) mask=0
+
+serch result 0 face_info=2023-10-26 15:09:37_5 score=0.379554
+
+
+serch result 1 face_info=2023-10-26 15:11:13_3 score=0.244991
+
+
+serch result 2 face_info=2023-10-26 15:35:50_1 score=0.218749
+
+
+serch result 3 face_info=2023-10-26 15:42:57_1 score=0.160236
+
+save capture to ./out/captures/2023-10-26 15:43:50_0.png
+first_time: 2023-10-26 15:09:37, last_time: 2023-10-26 15:37:52, count: 5
+first_time: 2023-10-26 15:11:13, last_time: 2023-10-26 15:15:08, count: 3
+first_time: 2023-10-26 15:43:50, last_time: 2023-10-26 15:43:50, count: 1
+first_time: 2023-10-26 15:35:50, last_time: 2023-10-26 15:35:50, count: 1
+first_time: 2023-10-26 15:42:57, last_time: 2023-10-26 15:42:57, count: 1
+SaveImage path: ./out/captures/2023-10-26 15:43:50_0.png width=240 height=240 channel=3 data=0xffff6752a000
+FaceAnalyseResultCallback channelId=0 frameId=114333 type=5 num=1
+
+capture face id=238 box=(5062 3458 6703 7083) mask=0
+
+serch result 0 face_info=2023-10-26 15:43:50_1 score=0.888962
+
+xxxxxxxx ----------- count : 2
+
+xxxxxxxx ----------- first_time : 2023-10-26 15:43:50
+
+xxxxxxxx ----------- deleteNode : 2023-10-26 15:43:50
+
+
+
+ tom test LINE:110
+
+20231026 15:44:13.356 62087:62097 E rockx(remove+489): this->face_array_num=4
+
+serch result 1 face_info=2023-10-26 15:09:37_5 score=0.557440
+
+xxxxxxxx ----------- deleteNode : 2023-10-26 15:09:37
+
+
+
+ tom test LINE:110
+
+20231026 15:44:13.356 62087:62097 E rockx(remove+489): this->face_array_num=3
+
+serch result 2 face_info=2023-10-26 15:11:13_3 score=0.159955
+
+
+serch result 3 face_info=2023-10-26 15:35:50_1 score=0.139047
+
+
+serch result 4 face_info=2023-10-26 15:42:57_1 score=0.060679
+
+save capture to ./out/captures/2023-10-26 15:44:13_0.png
+first_time: 2023-10-26 15:11:13, last_time: 2023-10-26 15:15:08, count: 3
+first_time: 2023-10-26 15:43:50, last_time: 2023-10-26 15:44:13, count: 2
+first_time: 2023-10-26 15:42:57, last_time: 2023-10-26 15:42:57, count: 1
+first_time: 2023-10-26 15:35:50, last_time: 2023-10-26 15:35:50, count: 1
+SaveImage path: ./out/captures/2023-10-26 15:44:13_0.png width=240 height=240 channel=3 data=0xffff6752a000
+FaceAnalyseResultCallback channelId=0 frameId=114653 type=5 num=1
+
+capture face id=239 box=(4703 3430 6343 6861) mask=0
+
+serch result 0 face_info=2023-10-26 15:43:50_2 score=0.988045
+
+xxxxxxxx ----------- count : 3
+
+xxxxxxxx ----------- first_time : 2023-10-26 15:43:50
+
+xxxxxxxx ----------- deleteNode : 2023-10-26 15:43:50
+
+
+
+ tom test LINE:110
+
+20231026 15:44:19.443 62087:62097 E rockx(remove+489): this->face_array_num=3
+
+serch result 1 face_info=2023-10-26 15:11:13_3 score=0.183528
+
+
+serch result 2 face_info=2023-10-26 15:42:57_1 score=0.138311
+
+
+serch result 3 face_info=2023-10-26 15:35:50_1 score=0.135320
+
+save capture to ./out/captures/2023-10-26 15:44:19_0.png
+first_time: 2023-10-26 15:43:50, last_time: 2023-10-26 15:44:19, count: 3
+first_time: 2023-10-26 15:11:13, last_time: 2023-10-26 15:15:08, count: 3
+first_time: 2023-10-26 15:35:50, last_time: 2023-10-26 15:35:50, count: 1
+first_time: 2023-10-26 15:42:57, last_time: 2023-10-26 15:42:57, count: 1
+SaveImage path: ./out/captures/2023-10-26 15:44:19_0.png width=240 height=240 channel=3 data=0xffff6752a000
+FaceAnalyseResultCallback channelId=0 frameId=114772 type=5 num=1
+
+capture face id=240 box=(4640 3194 6234 6791) mask=0
+
+serch result 0 face_info=2023-10-26 15:43:50_3 score=0.990994
+
+xxxxxxxx ----------- count : 4
+
+xxxxxxxx ----------- first_time : 2023-10-26 15:43:50
+
+xxxxxxxx ----------- deleteNode : 2023-10-26 15:43:50
+
+
+
+ tom test LINE:110
+
+20231026 15:44:21.736 62087:62097 E rockx(remove+489): this->face_array_num=3
+
+serch result 1 face_info=2023-10-26 15:11:13_3 score=0.166561
+
+
+serch result 2 face_info=2023-10-26 15:35:50_1 score=0.142219
+
+
+serch result 3 face_info=2023-10-26 15:42:57_1 score=0.140811
+
+save capture to ./out/captures/2023-10-26 15:44:21_0.png
+first_time: 2023-10-26 15:43:50, last_time: 2023-10-26 15:44:21, count: 4
+first_time: 2023-10-26 15:11:13, last_time: 2023-10-26 15:15:08, count: 3
+first_time: 2023-10-26 15:42:57, last_time: 2023-10-26 15:42:57, count: 1
+first_time: 2023-10-26 15:35:50, last_time: 2023-10-26 15:35:50, count: 1
+SaveImage path: ./out/captures/2023-10-26 15:44:21_0.png width=240 height=240 channel=3 data=0xffff6752a000
+FaceAnalyseResultCallback channelId=0 frameId=114939 type=5 num=1
+
+capture face id=241 box=(5296 2430 7031 6555) mask=0
+
+serch result 0 face_info=2023-10-26 15:43:50_4 score=0.984316
+
+xxxxxxxx ----------- count : 5
+
+xxxxxxxx ----------- first_time : 2023-10-26 15:43:50
+
+xxxxxxxx ----------- deleteNode : 2023-10-26 15:43:50
+
+
+
+ tom test LINE:110
+
+20231026 15:44:24.945 62087:62097 E rockx(remove+489): this->face_array_num=3
+
+serch result 1 face_info=2023-10-26 15:11:13_3 score=0.185042
+
+
+serch result 2 face_info=2023-10-26 15:35:50_1 score=0.132157
+
+
+serch result 3 face_info=2023-10-26 15:42:57_1 score=0.108269
+
+save capture to ./out/captures/2023-10-26 15:44:24_0.png
+first_time: 2023-10-26 15:43:50, last_time: 2023-10-26 15:44:24, count: 5
+first_time: 2023-10-26 15:11:13, last_time: 2023-10-26 15:15:08, count: 3
+first_time: 2023-10-26 15:35:50, last_time: 2023-10-26 15:35:50, count: 1
+first_time: 2023-10-26 15:42:57, last_time: 2023-10-26 15:42:57, count: 1
+SaveImage path: ./out/captures/2023-10-26 15:44:24_0.png width=240 height=240 channel=3 data=0xffff6752a000
+FaceAnalyseResultCallback channelId=0 frameId=115251 type=5 num=1
+
+capture face id=242 box=(5140 3166 6742 7194) mask=0
+
+serch result 0 face_info=2023-10-26 15:43:50_5 score=0.981314
+
+xxxxxxxx ----------- count : 6
+
+xxxxxxxx ----------- first_time : 2023-10-26 15:43:50
+
+xxxxxxxx ----------- deleteNode : 2023-10-26 15:43:50
+
+
+
+ tom test LINE:110
+
+20231026 15:44:31.048 62087:62097 E rockx(remove+489): this->face_array_num=3
+
+serch result 1 face_info=2023-10-26 15:11:13_3 score=0.124905
+
+
+serch result 2 face_info=2023-10-26 15:42:57_1 score=0.097725
+
+
+serch result 3 face_info=2023-10-26 15:35:50_1 score=0.084106
+
+save capture to ./out/captures/2023-10-26 15:44:31_0.png
+first_time: 2023-10-26 15:43:50, last_time: 2023-10-26 15:44:31, count: 6
+first_time: 2023-10-26 15:11:13, last_time: 2023-10-26 15:15:08, count: 3
+first_time: 2023-10-26 15:42:57, last_time: 2023-10-26 15:42:57, count: 1
+first_time: 2023-10-26 15:35:50, last_time: 2023-10-26 15:35:50, count: 1
+SaveImage path: ./out/captures/2023-10-26 15:44:31_0.png width=240 height=240 channel=3 data=0xffff6752a000
+FaceAnalyseResultCallback channelId=0 frameId=150207 type=5 num=1
+
+capture face id=355 box=(5007 6222 6265 9555) mask=0
+
+serch result 0 face_info=2023-10-26 15:43:50_6 score=0.859393
+
+xxxxxxxx ----------- count : 7
+
+xxxxxxxx ----------- first_time : 2023-10-26 15:43:50
+
+xxxxxxxx ----------- deleteNode : 2023-10-26 15:43:50
+
+
+
+ tom test LINE:110
+
+20231026 15:55:46.351 62087:62097 E rockx(remove+489): this->face_array_num=3
+
+serch result 1 face_info=2023-10-26 15:42:57_1 score=0.166357
+
+
+serch result 2 face_info=2023-10-26 15:11:13_3 score=0.138172
+
+
+serch result 3 face_info=2023-10-26 15:35:50_1 score=0.097688
+
+save capture to ./out/captures/2023-10-26 15:55:46_0.png
+first_time: 2023-10-26 15:43:50, last_time: 2023-10-26 15:55:46, count: 7
+first_time: 2023-10-26 15:11:13, last_time: 2023-10-26 15:15:08, count: 3
+first_time: 2023-10-26 15:35:50, last_time: 2023-10-26 15:35:50, count: 1
+first_time: 2023-10-26 15:42:57, last_time: 2023-10-26 15:42:57, count: 1
+SaveImage path: ./out/captures/2023-10-26 15:55:46_0.png width=240 height=240 channel=3 data=0xffff6752a000
+FaceAnalyseResultCallback channelId=0 frameId=150544 type=5 num=1
+
+capture face id=358 box=(5179 6111 6335 9541) mask=0
+
+serch result 0 face_info=2023-10-26 15:43:50_7 score=0.972990
+
+xxxxxxxx ----------- count : 8
+
+xxxxxxxx ----------- first_time : 2023-10-26 15:43:50
+
+xxxxxxxx ----------- deleteNode : 2023-10-26 15:43:50
+
+
+
+ tom test LINE:110
+
+20231026 15:55:52.951 62087:62097 E rockx(remove+489): this->face_array_num=3
+
+serch result 1 face_info=2023-10-26 15:11:13_3 score=0.196371
+
+
+serch result 2 face_info=2023-10-26 15:42:57_1 score=0.182915
+
+
+serch result 3 face_info=2023-10-26 15:35:50_1 score=0.166133
+
+save capture to ./out/captures/2023-10-26 15:55:52_0.png
+first_time: 2023-10-26 15:43:50, last_time: 2023-10-26 15:55:52, count: 8
+first_time: 2023-10-26 15:11:13, last_time: 2023-10-26 15:15:08, count: 3
+first_time: 2023-10-26 15:42:57, last_time: 2023-10-26 15:42:57, count: 1
+first_time: 2023-10-26 15:35:50, last_time: 2023-10-26 15:35:50, count: 1
+SaveImage path: ./out/captures/2023-10-26 15:55:52_0.png width=240 height=240 channel=3 data=0xffff6752a000
+FaceAnalyseResultCallback channelId=0 frameId=150650 

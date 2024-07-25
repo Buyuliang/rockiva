@@ -1,0 +1,23 @@
+{
+    "workMode": 0,
+    "logLevel": 0,
+    "logPath": "",
+    "modelPath": "/data/rockiva_data",
+    "license": "",
+    "coreMask": 0,
+    "channelId": 0,
+    "imageInfo": {
+        "width": 1920,
+        "height": 1080,
+        "format": 0,
+        "transformMode": 0
+    },
+    "detModel": 1,
+    "plate": {
+        "enable": 1,
+        "vehicleMinSize": 1000,
+        "plateMinSize": 350,
+        "plateMinScore": 95,
+        "mode": 1
+    }
+}
